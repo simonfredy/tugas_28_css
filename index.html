@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+
+        <meta charset="utf-8">
+        <title>Tugas CSS NIOMI</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <style>
+            body{
+                background-color: #333333;
+                margin: 0 auto;
+                padding: 30px;
+            }
+            label{
+                color: white;
+            }
+            .form-control-file{
+                color: white;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col"></div>
+                <div class="col-6">
+
+                    <img src="img/lampung.jpg" class="rounded-circle mx-auto d-block" alt="lampung" width="200px"><br>
+                    <form action="">
+
+                        <div class="form-group">
+                            <label>Nama Lengkap</label><br>
+                            <input type="text" class="form-control" placeholder="Nama Lengkap">
+                        </div>
+        
+                        <div class="form-group">
+                            <label>Alamat</label>
+                            <textarea name="alamat" class="form-control" cols="30" rows="3"></textarea>
+                        </div>
+        
+                        <div class="form-group">
+                            <label>Alamat Email</label>
+                            <input type="email" class="form-control" placeholder="Alamat email (disabled)" disabled>
+                        </div>
+        
+                        <div class="form-group">
+                            <label>Password</label>
+                            <input type="password" class="form-control" placeholder="Password">
+                        </div>
+        
+                        <div class="form-group">
+                            <label>Scan KTP</label>
+                            <input type="file" class="form-control-file">
+                        </div>
+        
+                        <div class="form-group">
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" class="form-check-input">
+                            <label class="form-check-label">Saya <u>setuju</u> dan telah membaca <a href="">aturan</a> serta <a href="">ketentuan</a> yang berlaku</label>
+                        </div>
+        
+                        <button type="button" class="btn btn-info btn-block">Submit</button>
+                    </form>
+                </div>
+                <div class="col"></div>
+            </div>
+            
+        </div>
+
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    </body>
+</html>
